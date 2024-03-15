@@ -1,0 +1,96 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        block title
+
+        link(rel="icon", href="https://cdn.daca.vn/media/logo/favicon.ico", type="image/x-icon")
+        
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css")
+        
+        link(rel="stylesheet", href="assets/css/style.css")
+
+    body
+        //- <!-- Header -->
+        header.header
+            .container
+                .header__wrap
+                    button.header__button-menu <i class="fa-solid fa-bars"></i>
+
+                    .header__logo
+                        a(href="/")
+                            img(src="assets/images/logo.svg" alt="Monito")
+                    
+                    nav.header__menu
+                        ul
+                            li
+                                a(href="/") Trang chủ
+                            li
+                                a(href="#") Danh Mục
+                            li
+                                a(href="#") Giới Thiệu
+                            li
+                                a(href="#") Liên Hệ
+                        
+                    .header__search
+                        form(action="")
+                            button <i class="fa-solid fa-magnifying-glass"></i>
+                            input(type="text" placeholder="Nhập từ khóa...")
+                    
+                    a(href="#" class="button button--primary") Tham gia cộng đồng
+
+                    button.header__button-search <i class="fa-solid fa-magnifying-glass"></i>
+        //-   <!-- End Header -->
+
+        block main
+
+        //- Foooter
+        footer.footer
+            .container
+                .footer__top
+                    h3.footer__title Đăng ký ngay để không bỏ lỡ các chương trình của chúng tôi
+                    form(action="" class="footer__form")
+                        input(type="email" placeholder="Nhập email của bạn...")
+                        button(type="submit") Đăng Ký Ngay
+
+                .footer__middle
+                    nav.footer__menu
+                        ul
+                            li
+                                a(href="/") Trang Chủ
+                            li
+                                a(href="#") Danh Mục
+                            li
+                                a(href="#") Giới thiệu
+                            li
+                                a(href="#") Liên hệ
+
+                    nav.footer__socials
+                        ul
+                            li
+                                a(href="#" target="_blank") <i class="fa-brands fa-facebook"></i>
+                            
+                            li
+                                a(href="#" target="_blank") <i class="fa-brands fa-x-twitter"></i>
+                            
+                            li
+                                a(href="#" target="_blank") <i class="fa-brands fa-instagram"></i>
+
+                            li
+                                a(href="#" target="_blank") <i class="fa-brands fa-youtube"></i>
+                
+                .footer__bottom
+                    .footer__copyright © 2024 Phùng Đức Anh. All rights reserved.
+                    
+                    .footer__logo
+                        a(href="/")
+                            img(src="assets/images/logo.svg" alt="")
+                    nav.footer__links
+                        ul
+                            li
+                                a(href="#") Điều khoản dịch vụ
+
+                            li
+                                a(href="#") Chính sách bảo mật
+        //- End Footer
