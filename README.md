@@ -1,3 +1,8 @@
 <h1>Pet Store</h1>
-<p>This is same project about a pet store website, which i do during a Frontend course</p>
 Link demo: https://pet-store-fungda.vercel.app/
+
+<ol>
+  <li> Clone this repo</li>
+  <li> Open index.html</li>
+  <li> In case you want to modify these codes, open Terminal -> npm start -> modify in pug, scss as you like</li>
+</ol>
